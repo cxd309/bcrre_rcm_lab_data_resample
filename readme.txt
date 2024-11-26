@@ -1,5 +1,6 @@
 # BCRRE Remote Condition Monitoring Lab - Data Resampling
 *Author: Chris Davis, email: cxd309@student.bham.ac.uk*
+[Github: cxd309/bcrre_rcm_lab_data_resample](https://github.com/cxd309/bcrre_rcm_lab_data_resample)
 
 ## Introduction
 This is a resample of the data taken during the MSc Remote Condition Monitoring Labs.
