@@ -40,7 +40,7 @@ def Downsample_DF(og_df, ratio, name, original_frequency):
     Save_DF(avg_downsample_df, name, "average", new_frequency)
     
 def Save_DF(df, name, ds_method, freq):
-    file_name = "resampled\\" + name + " - " + ds_method + " downsample " + str(int(freq)) + "Hz.csv"
+    file_name = "resampled\\" + name + "-" + ds_method + "_downsample-" + str(int(freq)) + "Hz.csv"
     print("Saving: "+file_name)
     df.to_csv(file_name, encoding='utf-8', index=False)
     
