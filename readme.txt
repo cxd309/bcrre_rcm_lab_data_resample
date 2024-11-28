@@ -46,3 +46,8 @@ for instance to downsample from 2000Hz to 1000Hz
 the ratio is 2 (n=2) so the programme groups and averages
 rows 1&2, 3&4, 5&6, 7&8, etc.
 
+## Ploting
+When run, plot.py will make a plot for all the files in raw_data
+using the matplotlib library.
+Gravity is corrected for in the z-axis to make it centered around 0.
+These are simple figures, but show how easy it is to use the library.
