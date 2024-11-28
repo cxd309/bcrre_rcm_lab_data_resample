@@ -7,7 +7,7 @@ def Plot_Figure(file_path, n):
     raw_df = pd.read_csv(file_path)
     
     # correct for gravity in z axis
-    raw_df[" zAccel [m/s/s]"] = raw_df[" zAccel [m/s/s]"].apply(lambda x: x-9.81)
+    raw_df[" zAccel [m/s/s]"] = raw_df[" zAccel [m/s/s]"].apply(lambda x: x+9.81)
 
     plt.plot(raw_df[" inc time [s]"], raw_df[" xAccel [m/s/s]"], label="X Axis")
     plt.plot(raw_df[" inc time [s]"], raw_df[" yAccel [m/s/s]"], label="Y Axis")
